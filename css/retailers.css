@@ -1,0 +1,98 @@
+html,body{
+	min-width: 1190px;
+}
+.zb-header{
+	width: 100%;
+	height: 200px;
+	background:#6e739b; 
+}
+.zb-header h1{
+	width: 1100px;
+	height: 200px;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 18px;
+	line-height: 200px;
+}
+.zb-banner{
+	width: 100%;
+	height: 600px;
+	background:#44bdea;
+	position: relative; 
+}
+.zb-banner h1{
+	font-size: 32px;
+	text-align: center;
+	padding-top: 132px;
+	color: #fff;
+}
+.zb-banner img{
+	position: absolute;
+	top: 205px;
+	left: 50%;
+	margin-left: -257px;
+}
+.zb-container{
+	width: 1100px;
+	height: auto;
+	margin: 0 auto;
+}
+.zb-margintop{
+	width: 100%;
+	height: 32px;
+}
+.zb-nav{
+	width: 510px;
+	height: 66px;
+	margin: 100px auto 58px;
+}
+.zb-nav div{
+	width: 64px;
+	height: 64px;
+	overflow: hidden;
+	padding: 0 2px 2px 0;
+	float: left;
+	margin-left: 32px;
+}
+.zb-nav div i{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	border: 64px dotted;
+	overflow: hidden;
+	border-width: 0vw;
+	background: currentcolor;
+}
+.zb-bg1 i{
+	color: #5eb1eb;
+	box-shadow: 2px 2px 0 0 #fb8b06;
+}
+.zb-bg2 i{
+	color: #528c50;
+	box-shadow: 2px 2px 0 0 #ffff00;
+}
+.zb-bg3 i{
+	color: #f9e910;
+	box-shadow: 2px 2px 0 0 #666667;
+}
+.zb-bg4 i{
+	color: #dadada;
+	box-shadow: 2px 2px 0 0 #020202;
+}
+.zb-bg5 i{
+	color: #a6b39a;
+	box-shadow: 2px 2px 0 0 #fe5401;
+}
+.zb-container img{
+	display: block;
+	width: 802px;
+	height: auto;
+	margin: 0 auto;
+}
+.zb-footer{
+	height: 600px;
+	width: 100%;
+	background: #ccc;
+	margin-top: 100px;
+}

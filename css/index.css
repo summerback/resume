@@ -1,0 +1,148 @@
+.float-left{float: left;}
+body{ width: 100%;
+	
+	/*height: 6216px;*/
+	height: auto;
+	padding-bottom: 100px;
+	background: url('../img/index_bg.png') no-repeat;
+	min-width: 1190px !important;
+		
+	background-size:100% 100% ;
+}
+/********************************开始导航********************************/
+.nav{
+	
+	    width: 92%;
+	    min-width: 1110px;
+    height: 167px;
+    background: white;
+    margin: 0 auto;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+	margin-top: 35px;
+}
+
+.nav img{margin-top: 30px;}
+.nav ul{float: right; margin-top: 120px;}
+.nav ul li{float: left;  font-size: 16px;margin-right: 38px; }
+.nav ul li a{color: #a1a1a1;  padding-left: 5px;
+    padding-right: 5px;}
+.nav ul li a:hover,.ahover{border-bottom: 3px solid #1dbffc;color: #1dbffc !important; 
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;}
+.last{margin-right: 0 !important;}
+/********************************结束导航********************************/
+/********************************开始关于我********************************/
+.index_guanyu{
+	width: 83.5%;
+	
+	height:930px;
+ 
+	margin: 0 auto;
+	margin-top: 552px;
+	border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+	 background: url('../img/index_code_bg_03_03.png') no-repeat; 
+	 background-size: 100% 100%;
+}
+.index_code{height: 504px; background-color: #fff; margin-top: 113px;}
+.img-center{margin-left: -57.5px;padding-left:50%; margin-top: 155px;}
+.code_left{float: left; margin-right: 60px;}
+.index_code .code_right ul {padding-top: 100px;}
+.index_code .code_right li{color: #666; font-size: 16px; line-height: 49px;}
+.index_code .code_right li span{color: #333333;}
+
+	.index_tab{
+			width: 83.5%;
+			
+			margin: 0 auto;
+			background: #fff;
+			
+		}
+		.nav_tab{
+			width: 1100px;
+			height: 100px; 
+				 position: relative;
+		}
+		.nav_tab ul li{
+			float: left;
+			width: 100px;
+			height: 100px;
+			margin: 0 10px;
+			 z-index: 999;
+			background-size: 100% 200%;
+			cursor: pointer;
+			margin-right: 215px;
+		}
+		.on{
+			background-position: center bottom !important; 
+		}
+		.main_tab{
+			width:1100px;
+			height: 330px;
+			overflow: hidden;
+			margin-top: 40px;
+		}
+		.tab {
+			width: 1100px;
+			 
+			height: 330px;  
+			font-size: 14px;  
+		}
+		.tab p{width: 370px; line-height: 25px; margin-top: 10px; color: #666666;}
+		.nav_tab1{background:url('../img/index_tab1_07.png') no-repeat;}
+		.nav_tab2{background:url('../img/index_tab2_07.png') no-repeat;}
+		.nav_tab3{background:url('../img/index_tab3_07.png') no-repeat;}
+		.nav_tab4{background:url('../img/index_tab4_07.png') no-repeat;}
+		
+		.tab_3_li{ margin-top: -7px !important;}
+		.tab_1_li{margin-top: 3px !important;}
+		
+		.posi{position: absolute; width: 1100px; bottom: 2px;  border-color: #111111;}
+		.tab2 p {     padding-left: 220px;}
+		.tab3 p {     padding-left: 550px;}
+		.tab4 p {     padding-left: 735px;}
+		.box-img img{width: 50%;margin-top: 150px;}
+		.lianxi{width: 83.5%; height: 500px; position: relative; background: #fff; margin-top: 150px;}
+		.img-posi{
+			 margin-top: -40px;
+			 width: 100%;
+		}
+		.img-center2{margin-left: -91.5px; margin-top: 85px;}
+/********************************结束关于我********************************/
+/********************************开始联系我********************************/
+.index_zuo{width: 83.5%; height: 1880px; background: #fff; margin: 0 auto;   margin-top: 150px;}
+.margin_top-44{margin-top: -40px;}
+.img-center3 {
+    margin-left: -65px;
+    padding-left: 50%;
+    margin-top: 120px;
+    margin-bottom: 113px;
+}
+.lianxi{height: 582px; background: #fff;}
+.footer ul {
+    float: left;
+    width: 217px;
+    margin-top: 113px;
+    margin-left: 138px;
+}
+.footer ul li{line-height: 30px; }
+.box-right li{width: 114px; height: 116px; background: #0C0C0C;}
+/********************************结束联系我********************************/
+/********************************开始作品集********************************/
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{display:inline-table;}/* Hides from IE-mac */
+*html .clearfix{height:1%;}
+.clearfix{display:block;}/* End hide from IE-mac */
+*+html .clearfix{min-height:1%;}
+/* section */ 
+.section .photo img{width: 365px; height: 235px;}
+.section{width:1100px;margin:40px auto 0 auto;overflow:hidden;}
+.section ul{width:1100px;}
+.section ul li{float:left; margin-bottom:28px;display:inline;width: 365px; margin-right: 1.5px; height: 235px;overflow:hidden;position:relative;}
+.section ul li .photo{width: 365px; height: 235px;overflow:hidden;}
+.section .rsp{width: 365px; height: 235px;overflow:hidden;position: absolute;background:#000;top:0px;left:0px;}
+.section .text{position:absolute;width:365px;height:55px;top:50%;left: 50%; margin-left: -182.5px; overflow:hidden; text-align: center; margin-top: -27.5px;} 
+.section .text a{color: #fff;font-size: 12px;}
+/********************************结束作品集********************************/

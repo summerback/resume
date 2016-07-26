@@ -1,0 +1,248 @@
+ body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+figure,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+legend,
+li,
+ol,
+p,
+td,
+textarea,
+th,
+tr,
+ul {
+	margin: 0;
+	padding: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block
+}
+
+ol,
+ul {
+	list-style: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: 400
+}
+
+em {
+	font-style: normal;
+	font-weight: 400
+}
+
+fieldset,
+img {
+	border: 0;
+	vertical-align: middle
+}
+
+button,
+input,
+textarea {
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: middle;
+	outline: 0
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden
+}
+
+.clearfix {
+	*zoom: 1
+}
+
+input::-webkit-input-placeholder {
+	color: #999
+}
+
+input:focus::-webkit-input-placeholder {
+	color: rgba(0, 0, 0, 0)
+}
+
+input::-moz-placeholder {
+	color: #999
+}
+
+input:focus::-moz-placeholder {
+	color: rgba(0, 0, 0, 0)
+}
+
+input:-ms-input-placeholder {
+	color: #999
+}
+
+input:focus:-ms-input-placeholder {
+	color: rgba(0, 0, 0, 0)
+}
+
+textarea::-webkit-input-placeholder {
+	color: #999
+}
+
+textarea:focus::-webkit-input-placeholder {
+	color: rgba(0, 0, 0, 0)
+}
+
+textarea::-moz-placeholder {
+	color: #999
+}
+
+textarea:focus::-moz-placeholder {
+	color: rgba(0, 0, 0, 0)
+}
+
+textarea:-ms-input-placeholder {
+	color: #999
+}
+
+textarea:focus:-ms-input-placeholder {
+	color: rgba(0, 0, 0, 0)
+}
+
+textarea::-webkit-input-placeholder:after {
+	content: "line@ \A line#"
+}
+
+;
+.placeholder {
+	color: #999!important
+}
+
+body {
+	width: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-color: #fff;
+	color: #333;
+	font: 14px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+	-webkit-font-smoothing: antialiased
+}
+
+@font-face {
+	font-family: webfont;
+	src: url(font/webfont.eot?111);
+	src: url(font/webfont.eot?#iefix) format('embedded-opentype'), url(font/webfont.woff?111) format('woff'), url(font/webfont.ttf?111) format('truetype'), url(font/webfont.svg#webfont) format('svg')
+}
+
+a {
+	color: #666;
+	text-decoration: none;
+	transition: color 218ms ease
+}
+
+a:hover {
+	color: #03a9f4
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	background: #eee;
+	height: 8px
+}
+
+::-webkit-scrollbar-button {
+	height: 0;
+	width: 0
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 0, .3);
+	border-radius: 4px
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(0, 0, 0, .2)
+}
+
+::-webkit-scrollbar-thumb:active,
+::-webkit-scrollbar-thumb:hover {
+	background-color: rgba(0, 0, 0, .5)
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	border-width: 6px 1px 1px;
+	padding: 0 0 0 100px;
+	box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1), inset -1px 0 0 rgba(0, 0, 0, .07)
+}
+
+::-webkit-scrollbar-corner {
+	background: 0 0
+}
+
+body::-webkit-scrollbar-track {
+	border-left: 1px solid #a6a6a6;
+	background: #d9d9d9
+}
+
+body::-webkit-scrollbar-track-piece {
+	background-clip: padding-box
+}
+
+body::-webkit-scrollbar-track-piece:horizontal {
+	background-color: #eee
+}
+
+body::-webkit-scrollbar-corner {
+	background-clip: padding-box;
+	background-color: #eee;
+	border: solid #fff;
+	border-width: 3px 0 0 3px;
+	box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .14)
+}
+.cursor{cursor: pointer;}
+.file_a{margin-left:10px;display: inline-block; width: 70px; height: 26px;line-height: 26px; text-align: center; background: #f8f9fd; border:1px solid #cfd7e2; position: relative; overflow: hidden;}
+.file{position: absolute; right: 0; top: 0; font-size: 100px; opacity: 0; filter:alpha(opacity=0);}
+.width{width: 1100px; margin: 0 auto; }
+.clear{clear: both;}
+.border{border: 1px solid #d5d4d4;}
+.margin-bottom-10{margin-bottom: 10px !important;}
+.margin-bottom-15{margin-bottom: 15px !important;}
+.margin-bottom-20{margin-bottom: 20px !important;}
+.margin-bottom-25{margin-bottom: 25px !important;}
+.margin-bottom-30{margin-bottom: 30px !important;}
+.margin-bottom-35{margin-bottom: 35px !important;}
+.margin-bottom-40{margin-bottom: 40px !important;}
+.margin-bottom-45{margin-bottom: 45px !important;}
+.margin-top-45{margin-top: 45px;}
+.margin-top-35{margin-top: 35px;}
